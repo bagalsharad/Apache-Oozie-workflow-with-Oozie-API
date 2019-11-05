@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+   <property>
+       <name>user.name</name>
+       <value>sharad</value>
+   </property>
+   <property>
+       <name>oozie.wf.application.path</name>
+       <value>maprfs:///path/oozie/oozie_api_test</value>
+   </property>
+   <property>
+       <name>queueName</name>
+       <value>default</value>
+   </property>
+   <property>
+       <name>nameNode</name>
+       <value>maprfs:///</value>
+   </property>
+   <property>
+       <name>jobTracker</name>
+       <value>localhost:8032</value>
+   </property>
+   <property>
+       <name>scriptName</name>
+       <value>oozie_api.sh</value>
+   </property>
+   <property>
+       <name>scriptPath</name>
+       <value>/path/oozie/oozie_api_test</value>
+   </property>
+   <property>
+       <name>directoryName</name>
+       <value>oozie_test_dir</value>
+   </property>
+</configuration>
